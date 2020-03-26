@@ -20,3 +20,6 @@ Route::group(['middleware' => ['cors', 'auth:api']], function (){
     Route::resource('/banks', 'Api\BanksController');
     Route::resource('/accounts', 'Api\AccountsController');
 });
+
+//Route::resource('/banks', 'Api\BanksController');
+//Route::resource('/accounts', 'Api\AccountsController');
